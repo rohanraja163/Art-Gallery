@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(90deg, rgba(255,195,118,1) 4%, rgba(75,206,185,1) 45%, rgba(0,212,255,1) 74%);
+    background-size: 100vw 100vh;
+    font-family: "Itim", cursive;
+}
+.heading{
+    text-align: center;
+    margin: 15px;
+    line-height: 15px;
+    font-family: "Itim", cursive;
+    color: #171738;
+    text-shadow: 0px 0px 3px;
+    font-size: large;
+}
+#company{
+    opacity: 0.7;
+    color:#7180B9;
+}
+.search{
+    display: flex;
+    justify-content:center;
+}
+#search_bar{
+    margin: 20px 10px 20px 20px;
+    min-width: 400px;
+    min-height: 40px;
+    border-radius: 80px;
+    padding-left: 10px;
+    border-color: #2E1760;
+    font-family: "Itim", cursive;
+}
+.search_button{
+    font-family: "Itim", cursive;
+    font-size: 20px;
+    margin: 20px 20px 20px 10px;
+    min-width: 100px;
+    min-height: 40px;
+    border-radius: 80px;
+    transition: 0.3s;
+    background-color: #DFF3E4;
+    border-color: #2E1760;
+    color: #171738 ;
+}
+.search_button:hover{
+    box-shadow: 0px 0px 16px;
+    cursor: pointer;
+}
+.list{
+    font-family: "Itim", cursive;
+    color: #2E1760;
+    margin-left: 8px;
+}
+#toc_head{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px;
+    margin-bottom: 10px;
+}
+#toc{
+    font-size: 25px;
+}
+#about_us{
+    font-size: 20px;
+    line-height: 25px;
+    color: #7180B9;
+    text-align:justify;
+    margin: 15px 30px 15px 30px;
+}
+#tab{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    padding: 10px 20px 10px 20px;
+}
+.image_dims{
+    height: 200px;
+    width: 150px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
